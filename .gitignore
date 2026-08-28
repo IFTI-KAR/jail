@@ -1,0 +1,13 @@
+# Python & Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large binaries if any
+*.zip

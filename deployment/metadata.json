@@ -1,0 +1,79 @@
+{
+  "num_classes": 16,
+  "classes": [
+    "Animal Abuse",
+    "Bias",
+    "Child Abuse Content",
+    "Economic Harm",
+    "Fraud",
+    "Government Decision",
+    "Hate Speech",
+    "Health Consultation",
+    "Illegal Activity",
+    "Malware",
+    "Physical Harm",
+    "Political Sensitivity",
+    "Privacy Violation",
+    "Tailored Unlicensed Advice",
+    "Unethical Behavior",
+    "Violence"
+  ],
+  "models": {
+    "Logistic Regression": {
+      "test_acc": 0.8864,
+      "test_f1_macro": 0.8701,
+      "test_f1_weighted": 0.9149
+    },
+    "Naive Bayes": {
+      "test_acc": 0.5719,
+      "test_f1_macro": 0.5784,
+      "test_f1_weighted": 0.6257
+    },
+    "Random Forest": {
+      "test_acc": 0.7764,
+      "test_f1_macro": 0.7532,
+      "test_f1_weighted": 0.7837
+    },
+    "Bidirectional GRU": {
+      "test_acc": 0.8724,
+      "test_f1_macro": 0.8363,
+      "test_f1_weighted": 0.8904
+    },
+    "GRU": {
+      "test_acc": 0.7983,
+      "test_f1_macro": 0.7487,
+      "test_f1_weighted": 0.8057
+    },
+    "Bidirectional LSTM": {
+      "test_acc": 0.8498,
+      "test_f1_macro": 0.812,
+      "test_f1_weighted": 0.86
+    },
+    "LSTM": {
+      "test_acc": 0.7579,
+      "test_f1_macro": 0.7066,
+      "test_f1_weighted": 0.7566
+    },
+    "Bidirectional SimpleRNN": {
+      "test_acc": 0.5733,
+      "test_f1_macro": 0.4858,
+      "test_f1_weighted": 0.5537
+    },
+    "SimpleRNN": {
+      "test_acc": 0.3679,
+      "test_f1_macro": 0.2498,
+      "test_f1_weighted": 0.3101
+    }
+  },
+  "filename_map": {
+    "Logistic Regression": "logistic_regression_model.joblib",
+    "Naive Bayes": "naive_bayes_model.joblib",
+    "Random Forest": "random_forest_model.joblib",
+    "Bidirectional GRU": "bi_gru_model.joblib",
+    "GRU": "gru_model.joblib",
+    "Bidirectional LSTM": "bi_lstm_model.joblib",
+    "LSTM": "lstm_model.joblib",
+    "Bidirectional SimpleRNN": "bi_srnn_model.joblib",
+    "SimpleRNN": "srnn_model.joblib"
+  }
+}
